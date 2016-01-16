@@ -10,11 +10,11 @@ permalink: /about/
 Software Developer, Registered Nurse, Human
 
 #Areas of interest
-Front-end and back-end web development, devops, social justice, ES6, healtcare
+Front-end and back-end web development, devops, social justice, ES6, healthcare
 
 ## Favourite Languages
 
-- Go
+- Elixir
 - Javascript
 - Ruby
 - Rust
@@ -22,18 +22,16 @@ Front-end and back-end web development, devops, social justice, ES6, healtcare
 ## Favourite Frameworks
 
 - Ember.js
+- Phoenix
 - Rails
 
 ## Favourite tools
 
-- WebStorm
-- RubyMine
-- Atom
+- Emacs
 - Vim
+- Atom
 - Docker
-- Vagrant
 - Codeship
-- GoCD
 - Github
 - BitBucket
 
