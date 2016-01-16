@@ -1,6 +1,7 @@
 ---
 layout: post
 title: On Mentorship
+tags: [mentorship, empathy, self improvement]
 image:
   feature: abstract-5.jpg
 ---

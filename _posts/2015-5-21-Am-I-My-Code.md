@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Am I My Code?
+tags: [coding, empathy, feedback]
 image:
   background: triangular.png
 ---
