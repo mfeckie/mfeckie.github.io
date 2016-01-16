@@ -1,6 +1,8 @@
 ---
 layout: post
 title: On Mentorship
+image:
+  feature: abstract-5.jpg
 ---
 ### What even is mentorship?
 

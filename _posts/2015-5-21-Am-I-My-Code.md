@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Am I My Code?
+image:
+  background: triangular.png
 ---
 
 So I read this quote on Twitter from Avdi Grimm today and it really resonated with me
