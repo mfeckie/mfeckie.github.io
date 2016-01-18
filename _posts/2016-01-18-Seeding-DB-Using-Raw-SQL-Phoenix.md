@@ -36,6 +36,8 @@ defmodule Mix.Tasks.HelloWorld do
 end
 {% endhighlight %}
 
+Compile the application `mix compile`.
+
 If we run `mix help`, we don't see our task, but if we excute the command, it works.  **Note** the module name is converted to snake_case when invoking commands.
 
 {% highlight bash linenos %}
