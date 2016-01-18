@@ -2,6 +2,8 @@
 layout: post
 title: Lightning Deploys with Phoenix and Ember
 tags: [ember, elixir, phoenix, devops]
+image:
+  background: triangular.png
 ---
 
 I have been really interested in the discussions in the Rails and Ember communities on the topic of Lightning Deploys.  Here are some things I've tried, failed, learned and succeeded with!

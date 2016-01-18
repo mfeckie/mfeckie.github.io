@@ -2,6 +2,8 @@
 layout: post
 title: Custom Mix Tasks for Database Seeding
 tags: [elixir, phoenix, devops]
+image:
+  background: triangular.png
 ---
 
 # Why a custom Mix task?
