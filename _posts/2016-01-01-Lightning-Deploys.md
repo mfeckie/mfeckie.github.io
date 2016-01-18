@@ -157,6 +157,6 @@ In an upcoming post I'll share my deployment strategy where I use exrm for hot c
 
 # Shameless plug
 
-I'm a consultant application developer with [ThoughtWorks](www.thoughtworks.com) and if you would like us to work with you and your company, reach out at <mailto:mfeckie@thoughtworks.com>
+I'm a consultant application developer with [ThoughtWorks](http://www.thoughtworks.com) and if you would like us to work with you and your company, reach out at <mailto:mfeckie@thoughtworks.com>
 
 In the meantime, Elixir and Ember all of the things :)
