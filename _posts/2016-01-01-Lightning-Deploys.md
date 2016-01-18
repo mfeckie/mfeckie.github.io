@@ -94,7 +94,7 @@ All of the assets are service with under the `/lightning` scope to prevent any c
 
 On the server itself, the lightning assets are located in an isolated folder with no connection to the rest of the application.  This reduces the risk of malicious directory traversal.  The whole application is served under a deployment user with very limited permissions and no root access.
 
-I like the isolation because I can just keep deploying to that folder and the server never need to restart.  Any user with a cached index.html will still be able to get the correct assets and they shouldn't experience any inconvenience.  If the backend API changes, that may not be the case.
+I like the isolation because I can just keep deploying to that folder and the server never needs to restart.  Any user with a cached index.html will still be able to get the correct assets and they shouldn't experience any inconvenience.  If the backend API changes, that may not be the case.
 
 {% highlight elixir linenos %}
 scope "/lightning", MyApp do
