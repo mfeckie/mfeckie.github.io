@@ -8,7 +8,7 @@ image:
 
 Erlang comes with an awesome tool called observer, which is readily available to the Elixir user.
 
-If you want to use it, simple run `:observer.start` from and iex session.
+If you want to use it, simple run `:observer.start` from an IEx session.
 
 An interesting feature is that you can then connect to another node and observer its details.  Getting that working when the other node is on a different machine accessible only via SSH is another story.  This is that story!
 
