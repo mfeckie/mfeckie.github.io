@@ -70,6 +70,8 @@ Here's the implementation.
 
 In order to provide a separate place for the app assets to be served I prefix them to be in a `lightning` folder.
 
+Update your `ember-cli-build.js` file to include the fingerprinting configuration.
+
 I personally prefer to service images from the static folder in Phoenix as for my use, they don't need a fingerprint and change almost never.  Drop the exclude line if that doesn't suit you.
 
 {% highlight js linenos %}
