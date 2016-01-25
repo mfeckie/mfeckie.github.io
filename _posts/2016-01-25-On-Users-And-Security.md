@@ -19,7 +19,7 @@ Another possible vector for attack is if a site does not scrub input for HTML / 
 
 One particularly annoying way of 'securing' sites is blocking pasting into input fields.  Generally, on a web application, this is done using some JavaScript code.  This is a TERRIBLE idea.
 
-Any individual with enough knowledge to be preparing a SQL injection attack or exploiting an un-sanitized user input approach is already sufficiently skilled to turn off your shitty JavaScript 'security'.  Seriously, if you're writing software that is so insecure[^1] that you believe blocking the paste function, you really need to invest in some genuine security training or a different career.
+Any individual with enough knowledge to be preparing a SQL injection attack or exploiting an un-sanitized user input approach is already sufficiently skilled to turn off your shitty JavaScript 'security'.  Seriously, if you're writing software that is so insecure[^1] that you believe blocking the paste function is good / necessary, you really need to invest in some genuine security training or a different career.
 
 ## 'Security' that disadvantages users without genuine benefit
 
@@ -64,25 +64,38 @@ Where this gets unreasonable is the WAY in which that resource is used.
 
 In this circumstance, I would argue that a 4 or 5 character code is just as secure as a 9 character one.  Here's why:
 
-Let's take alphanumeric here to mean a-z + A-Z + 0-9, or 26 + 26 + 10.  This gives us 62 possibilies per position.
+Let's take alphanumeric here to mean a-z + A-Z + 0-9, or 26 + 26 + 10.  This gives us 62 possibilities per position.
 
-9 positions = 62 x 62 x 62 x 62 x 62 x 62 x 62 x 62 x 62 = 13537086546263552.  In words, that 13 quadrillion posibilities.  I don't even have a mental picture of what a quadrillion even looks like, but let's just agree, it's a damn big number.
+9 positions = 62 x 62 x 62 x 62 x 62 x 62 x 62 x 62 x 62 = 13,537,086,546,263,600.  In words, that 13 quadrillion possibilities.  I don't even have a mental picture of what a quadrillion even looks like, but let's just agree, it's a damn big number.
 
-5 positions =  62 x 62 x 62 x 62 x 62 = 916132832.  In words, that's 916 million 132 thousand 832 possibilities.  I think you can agree that, whilst smaller than the last one, it's still very big.
+5 positions =  62 x 62 x 62 x 62 x 62 = 916,132,832.  In words, that's 916 million 132 thousand 832 possibilities.  I think you can agree that, whilst smaller than the last one, it's still very big.
 
-4 positions = 62 x 62 x 62 x 62 = 14776336.  In words, that's 14 million 776 thousand 336.  Significantly smaller, but still rather large.
+4 positions = 62 x 62 x 62 x 62 = 14,776,336.  In words, that's 14 million 776 thousand 336.  Significantly smaller, but still rather large.
 
-So what does all this mean in terms of security?
+## So what does all this mean in terms of security?
 
-Well, the likelihood of someone with my password, but not my mobile phone, guessing the 2 factor authentication code (assuming 3 attempts are allowed) is 3 / 13537086546263552, which is 2.216134165758175644624123635451272010182621932036242861... × 10^-16.  This is an insanely small number.  To put in some kind of context, you've a higher chance of winning the top lotto prize twice in your life buying only one ticket a week.
+Well, the likelihood of someone with my password, but not my mobile phone, guessing the 2 factor authentication code (assuming 3 attempts are allowed) is 3 / 13,537,086,546,263,552, which is 2.216134165758175644624123635451272010182621932036242861... × 10^-16.
 
-Event with a 4 position code, the likelihood of guessing correctly are 2.0302732693679948804629239616641094246909382677816746993... × 10^-7.  Once again, you've still got a higher chance of winning the top prize in lotto twice in your life buying only one ticket a week!
+This is an insanely small number.  To put in some kind of context, you've a higher chance of winning the top lotto prize twice in your life buying only one ticket a week.
+
+Event with a 4 position code, the likelihood of guessing correctly are 2.0302732693679948804629239616641094246909382677816746993... × 10^-7.
+
+Once again, you've still got a higher chance of winning the top prize in lotto twice in your life buying only one ticket a week!
 
 ## What's the risk of a shorter code?
 
-From my perspective, we still have all of the benefits of 2 factor authentication even with a 4 position alphanumeric code, without causing unecessary inconvenience to users.
+From my perspective, we still have all of the benefits of 2 factor authentication even with a 4 position alphanumeric code, without causing unnecessary inconvenience to users.
 
 I'm very much in favour of protecting the details of my users, but let's use a bit a science to understand the risk of using shorter codes.  In my view, the maths of a 4 character position code on a 2 factor SMS make it safe and convenient.
 
+## Wrapping up
+
+Stop and think through your UX, particularly when considering securing access to your platform.  2 factor is a great thing, but don't get carried away with the size of the challenge.  4 characters is easy to remember without making your service vulnerable to brute force attack (unless you do something stupid, like allowing infinite attempts at a verification challenge!).
+
+# Shameless plug
+
+I'm a consultant application developer with [ThoughtWorks](http://www.thoughtworks.com) and if you would like us to work with you and your company, reach out at <mailto:mfeckie@thoughtworks.com>
+
+In the meantime, enjoy building user focussed things and don't be evil 😀
 
 [^1]: poorly written / poorly understood / poorly implemented / poorly designed or just plain shit
