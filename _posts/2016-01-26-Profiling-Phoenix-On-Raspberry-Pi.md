@@ -149,7 +149,7 @@ Once connected I ran a few of the tests again and made this video.
 
 Here you'll get a feel for what's going on 'under the hood' when we try and stress the VM.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zZ5pqI9xP74" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7bwGJ7tQlwk" frameborder="0" allowfullscreen></iframe>
 
 It's really nice to see how little memory is used by the application, peaking at around 80MB.
 
