@@ -36,6 +36,8 @@ By default the Erlang VM will use a bunch of different ports for distributed com
 
 On your remote machine, run
 
+*Addendum - this will only work if you have a named node running* 
+
 {% highlight bash linenos %}
 $ epmd -names
 epmd: up and running on port 4369 with data:
