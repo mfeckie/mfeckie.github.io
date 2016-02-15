@@ -82,7 +82,7 @@ In the circumstance that we are to reload a record or one is not present in the 
 
 Next, the `buildURL` method is called, which mostly does what you would expect, though there are some 'smarts' that deal with how to build the URL for difference cases (e.g. many records vs single, POST requests vs GET).  For a full understanding of what happens during buildURL, visit [the mixin source](https://github.com/emberjs/data/blob/a0408cc1f1ec4004368e6c553f219b8360ec6bb3/addon/-private/adapters/build-url-mixin.js).
 
-Finally a request is made to the persistence layer via an ajax call.
+Finally a request is made to the persistence layer via an AJAX call.
 
 When the request is resolved, it is passed to the serializer which calls `normalize`, converting the raw data to ED structure.  The object is then pushed into the `store`.
 
@@ -117,7 +117,7 @@ export default DS.RESTAdapter.extend({
 
 So we've taken a stroll around Ember Data and I hope you now have the ability to visualize the process and know where to look when you need to make customizations.
 
-I strongly encourage you to take a look through the codebase, it've very well written, documented and tested.
+I strongly encourage you to take a look through the codebase, it's very well written, documented and tested.
 
 # Shameless plug
 
