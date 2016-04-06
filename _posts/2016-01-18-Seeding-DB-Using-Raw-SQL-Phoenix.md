@@ -190,9 +190,3 @@ And with that, we're done.
 ## Wrap up
 
 As you can see, it's fairly trivial to implement your own Mix tasks in Elixir.  Of course you could easily write this with a shell script, but where would the fun be in that!
-
-# Shameless plug
-
-I'm a consultant application developer with [ThoughtWorks](http://www.thoughtworks.com) and if you would like us to work with you and your company, reach out at <mailto:mfeckie@thoughtworks.com>
-
-In the meantime, enjoy Mixing all of the things :)

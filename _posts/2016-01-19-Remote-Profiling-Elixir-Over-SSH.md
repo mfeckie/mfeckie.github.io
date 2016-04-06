@@ -118,10 +118,3 @@ I'll just throw a bit of load at it ... and
 Being able to communicate with a running node, remotely, over SSH gives us the ability to do lots of interesting experiments.  Load testing, for example.  The really nice thing about this is that it's much closer to real world usage than running benchmarks locally.
 
 In an upcoming post I'll share what I've learned from running Phoenix on a Raspberry Pi.
-
-# Shameless plug
-
-I'm a consultant application developer with [ThoughtWorks](http://www.thoughtworks.com) and if you would like us to work with you and your company, reach out at <mailto:mfeckie@thoughtworks.com>
-
-In the meantime, enjoy profiling all of the things :)
-

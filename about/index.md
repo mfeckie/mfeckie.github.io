@@ -37,4 +37,4 @@ Front-end and back-end web development, devops, social justice, ES6, healthcare
 
 ### Contact me
 
-[mfeckie@thoughtworks.com](mailto:mfeckie@thoughtworks.com)
+[mfeckie+blog@gmail.com](mailto:mfeckie+blog@gmail.com)

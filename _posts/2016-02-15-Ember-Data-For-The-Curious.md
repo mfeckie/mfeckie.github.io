@@ -118,9 +118,3 @@ export default DS.RESTAdapter.extend({
 So we've taken a stroll around Ember Data and I hope you now have the ability to visualize the process and know where to look when you need to make customizations.
 
 I strongly encourage you to take a look through the codebase, it's very well written, documented and tested.
-
-# Shameless plug
-
-I'm a consultant application developer with [ThoughtWorks](http://www.thoughtworks.com) and if you would like us to work with you and your company, reach out at <mailto:mfeckie@thoughtworks.com>
-
-In the meantime, have fun customizing Ember Data to your 💖's content

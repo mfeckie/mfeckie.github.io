@@ -156,9 +156,3 @@ In an upcoming blog post I'll share the results of running my application on a R
 Although I wrote a bunch of code that I eventually threw away, I learned a ton along the way.  There's a wonderful joy in deleting code (for me at least!).  The less code it takes to implement a solution, the fewer entrypoints for bugs.
 
 In an upcoming post I'll share my deployment strategy where I use exrm for hot code deploys and ansible for automation.
-
-# Shameless plug
-
-I'm a consultant application developer with [ThoughtWorks](http://www.thoughtworks.com) and if you would like us to work with you and your company, reach out at <mailto:mfeckie@thoughtworks.com>
-
-In the meantime, Elixir and Ember all of the things :)

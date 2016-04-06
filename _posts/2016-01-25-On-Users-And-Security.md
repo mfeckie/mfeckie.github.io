@@ -92,10 +92,4 @@ I'm very much in favour of protecting the details of my users, but let's use a b
 
 Stop and think through your UX, particularly when considering securing access to your platform.  2 factor is a great thing, but don't get carried away with the size of the challenge.  4 characters is easy to remember without making your service vulnerable to brute force attack (unless you do something stupid, like allowing infinite attempts at a verification challenge!).
 
-# Shameless plug
-
-I'm a consultant application developer with [ThoughtWorks](http://www.thoughtworks.com) and if you would like us to work with you and your company, reach out at <mailto:mfeckie@thoughtworks.com>
-
-In the meantime, enjoy building user focussed things and don't be evil 😀
-
 [^1]: poorly written / poorly understood / poorly implemented / poorly designed or just plain shit
