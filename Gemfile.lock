@@ -1,3 +1,10 @@
+GIT
+  remote: git://github.com/mfeckie/inline_highlight.git
+  revision: e7f28240527190ded6faf6b8ed7c3faa5b7823c3
+  specs:
+    jekyll_inline_highlight (3.0)
+      jekyll (~> 3.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -58,6 +65,7 @@ DEPENDENCIES
   jekyll (= 3.1.6)
   jekyll-paginate
   jekyll-sitemap
+  jekyll_inline_highlight!
   octopress (~> 3.0)
 
 BUNDLED WITH
