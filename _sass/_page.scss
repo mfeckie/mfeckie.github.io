@@ -231,6 +231,26 @@ header .entry-meta {
 			}
 		}
 	}
+  .entry-content.wide {
+		margin: 40px 2px 20px 2px;
+		padding: 10px 15px;
+		background-color: $white;
+		box-shadow: 0 0 0 0, 0 6px 12px rgba($black,0.1);
+		@include rounded(3px);
+		@media #{$medium} {
+			margin-left: 10px;
+			margin-right: 10px;
+			padding: 20px 30px;
+		}
+		@media #{$large} {
+			max-width: 1024px;
+			margin: 50px auto 30px auto;
+			padding: 50px 80px;
+			> p:first-child {
+				@include font-size(20);
+			}
+		}
+	}
 	#disqus_thread {
 		margin: 40px 2px 20px 2px;
 		padding: 10px 15px;

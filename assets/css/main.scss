@@ -27,3 +27,21 @@ sitemap: false
 @import "animations";
 @import "dl-menu";
 @import "page";
+
+.pad {
+  padding: 5px;
+  border: none;
+}
+
+table.function-calls {
+  border-collapse: collapse;
+  background-color: #272822;
+  tr {
+    td, th {
+      text-align: left;
+      color: white !important;
+      padding: 5px;
+    }
+
+  }
+}
