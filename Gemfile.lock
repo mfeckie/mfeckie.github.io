@@ -8,10 +8,11 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
+    addressable (2.4.0)
     colorator (0.1)
-    ffi (1.9.10)
-    ffi (1.9.10-x64-mingw32)
-    ffi (1.9.10-x86-mingw32)
+    ffi (1.9.14)
+    ffi (1.9.14-x64-mingw32)
+    ffi (1.9.14-x86-mingw32)
     jekyll (3.1.6)
       colorator (~> 0.1)
       jekyll-sass-converter (~> 1.0)
@@ -24,10 +25,11 @@ GEM
     jekyll-paginate (1.1.0)
     jekyll-sass-converter (1.4.0)
       sass (~> 3.4)
-    jekyll-sitemap (0.10.0)
-    jekyll-watch (1.4.0)
+    jekyll-sitemap (0.11.0)
+      addressable (~> 2.4.0)
+    jekyll-watch (1.5.0)
       listen (~> 3.0, < 3.1)
-    kramdown (1.11.1)
+    kramdown (1.12.0)
     liquid (3.0.6)
     listen (3.0.8)
       rb-fsevent (~> 0.9, >= 0.9.4)
@@ -45,7 +47,7 @@ GEM
       colorator
     octopress-escape-code (2.1.1)
       jekyll (~> 3.0)
-    octopress-hooks (2.6.1)
+    octopress-hooks (2.6.2)
       jekyll (>= 2.0)
     rb-fsevent (0.9.7)
     rb-inotify (0.9.7)
@@ -69,4 +71,4 @@ DEPENDENCIES
   octopress (~> 3.0)
 
 BUNDLED WITH
-   1.11.2
+   1.12.5
