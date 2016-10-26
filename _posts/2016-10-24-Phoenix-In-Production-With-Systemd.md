@@ -139,6 +139,7 @@ post-stop <span class="nb">exec</span> /bin/sh /app/bin/hello_phoenix stop
 <p>
   Here's an example of a .env file that might be used by a phoenix / ecto application.
   Take particular note that we set <code>RELX_REPLACE_OS_VARS=true</code>, without this our release would not try to evaluate the environment variables.
+  <em>Update:</em> Thanks to David Kuhta for pointing out that if you're using Distillery, rather than exrm, use <code>REPLACE_OS_VARS=true</code> instead
 </p>
 <p>
   This file lives at <code>/etc/default/my_phoenix_app.env</code> and is reference from the service definition.
