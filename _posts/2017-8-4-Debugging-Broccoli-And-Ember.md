@@ -186,3 +186,22 @@ Now that I knew how to fix the problem, I created a Pull Request back to the lib
 It was a pretty interesting experience and what I share here is the condensed version with all of the desperation, swearing and dead ends removed!
 
 All of the folks from the library maintainer to the people I chatted with on Slack were super helpful.  All of the libraries have pretty good documentation and most of the things I've documented here are well known by people who work on the build tooling regularly.  For us lesser mortals, however, hopefully this summary will help the next person who googles for 'How to debug ember build process?'.
+
+And in a supreme piece of universe trolling ... if there were a PreProcessor Interface, we could do this
+
+{% highlight typescript %}
+interface PreProcessor {
+  name: string
+  ext: string,
+}
+
+class TypeScriptPreprocessor implements PreProcessor {
+  name = 'ember-cli-typescript'
+}
+{% endhighlight %}
+
+![interface](/images/debugging/interface.png)
+
+And would be warned of the mistake!
+
+So despite the long journey, it ended up reinforcing my belief that utilising TypeScript has the potential to reduce the risk of making mistakes on a long term basis!
