@@ -29,7 +29,7 @@ timezone:    Australia/Perth
 future:      true
 highlighter: rouge
 markdown:    kramdown
-gems:
+plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll_inline_highlight
